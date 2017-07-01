@@ -9,6 +9,20 @@ public class Organization {
 	private String slogan;
 	private int employeeCount;
 	
+	public Organization(){
+		
+	}
+	
+	public Organization(String companyName, int yearOfIncorporation, String postalCode,
+			int employeeCount, String slogan) {
+		super();
+		this.companyName = companyName;
+		this.yearOfIncorporation = yearOfIncorporation;
+		this.postalCode = postalCode;
+		this.slogan = slogan;
+		this.employeeCount = employeeCount;
+	}
+	
 	public int getEmployeeCount() {
 		return employeeCount;
 	}
